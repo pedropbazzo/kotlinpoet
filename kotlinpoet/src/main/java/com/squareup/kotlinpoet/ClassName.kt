@@ -210,7 +210,7 @@ public class ClassName internal constructor(
 
 @DelicateKotlinPoetApi(
   message = "Java reflection APIs don't give complete information on Kotlin types. Consider using" +
-    " the kotlinpoet-metadata APIs instead."
+    " the kotlinpoet-metadata APIs instead." 
 )
 @JvmName("get")
 public fun Class<*>.asClassName(): ClassName {
